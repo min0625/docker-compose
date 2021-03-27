@@ -4,11 +4,5 @@ services:
     env_file:
       - .env
     image: mysql/mysql-server:5.7
-    restart: always
     ports:
       - 3306:3306
-
-  admin:
-     image: adminer
-     ports:
-       - 8080:8080

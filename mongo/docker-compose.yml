@@ -5,5 +5,4 @@ services:
     image: mongo
     ports:
       - 27017:27017
-    restart: always
     entrypoint: [ "mongod", "--port", "27017", "--bind_ip_all"]

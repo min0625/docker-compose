@@ -4,5 +4,4 @@ services:
     env_file:
       - .env
     image: ubuntu
-    restart: always
     command: tail -F anything
